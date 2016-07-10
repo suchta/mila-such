@@ -1,9 +1,14 @@
 <div class="header-container">
     <header>
-        <h4 class="title">My Angular2 + TypeScript App</h4>
+        <h4 class="title">Nested Components Passing Data to Child Components</h4>
     </header>
-<!-- </div>
-
+ </div>
+ <div *ngFor="let name of names">
+   <div class='namebox'>
+     <test-component [name]=name>...</test-component>
+   </div>
+ </div>
+<!--
 <div class="main-container">
     <router-outlet></router-outlet>
 </div> -->
@@ -14,7 +19,5 @@
         <span>&copy; 2016</span>
     </footer> -->
 
-    <div *ngFor="let name of names">
-      <test-component [name]=name>...</test-component>
-    </div>
+
 </div>

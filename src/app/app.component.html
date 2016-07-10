@@ -3,10 +3,12 @@
         <h4 class="title">Nested Components Passing Data to Child Components</h4>
     </header>
  </div>
+ <div>
  <div *ngFor="let name of names">
-   <div class='namebox'>
+   <div class="contentbox">
      <test-component [name]=name>...</test-component>
    </div>
+ </div>
  </div>
 <!--
 <div class="main-container">

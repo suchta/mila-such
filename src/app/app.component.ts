@@ -21,8 +21,6 @@ export class AppComponent implements OnInit{
   names: String[];
   ngOnInit() {
     this.list = 10;
-
     this.names = ['Joe','Omar','Mila','Katie','Molly','Chi','Frog','Fluffy'];
   }
-
 }

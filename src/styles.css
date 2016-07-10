@@ -56,11 +56,13 @@ a:hover {
 /**/
 
 .contentbox {
-  border: solid;
+  float: left;
+  background: #00FF00;
   border-radius: 10px;
   padding: 0px;
-  width: 100%;
-  height: 100%;
+  width: 100px;
+  height: auto;
+  margin: 10px;
 }
 .namebox {
   float: left;

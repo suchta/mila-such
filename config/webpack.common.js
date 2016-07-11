@@ -50,6 +50,7 @@ module.exports = {
             $: 'jquery',
             jQuery: 'jquery',
             'window.jQuery': 'jquery'
+            // Gotta stick my shopifyBuy module here.
         }),
 
         new HtmlWebpackPlugin({

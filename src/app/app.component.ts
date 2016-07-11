@@ -5,6 +5,7 @@ import {OnInit} from '@angular/core';
 // import {HomeComponent} from './home/home.component';
 // import {AboutComponent} from './about/about.component';
 import {TestComponent} from './test.component';
+import {ProductService} from './product.service';
 
 import 'bootstrap/dist/css/bootstrap.css';
 import '../styles.css';
@@ -12,8 +13,8 @@ import '../styles.css';
 @Component({
     selector: 'my-app',
     template: require('./app.component.html'),
-    directives: [TestComponent],
-    precompile: [TestComponent],
+    directives: [TestComponent, ProductService],
+    precompile: [TestComponent, ProductService],
 })
 
 export class AppComponent implements OnInit{

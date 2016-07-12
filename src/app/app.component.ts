@@ -37,7 +37,7 @@ export class AppComponent implements OnInit{
     //this is my client, and it works well.
     this.shopifyClient.fetchAllProducts().then(
       function(value: any) {
-        //console.log("SUCCESS: " + value[0]);
+        console.log("SUCCESS shopifyClient API");
         //alert(value.length);
         //this.$q.defer().resolve();
         //value => this.AllProducts = value;
